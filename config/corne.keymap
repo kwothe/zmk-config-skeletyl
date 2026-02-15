@@ -7,13 +7,6 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 800  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
-&sk {
-    release-after-ms = <1000>;
-    quick-release;
-    lazy;
-    ignore-modifiers;
-};
-
 &mmv {
     acceleration-exponent = <1>;          // 1
     time-to-max-speed-ms = <500>;         // 300
